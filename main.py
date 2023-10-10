@@ -1,4 +1,3 @@
-#reduce no,of variables, split, insurance
 import sqlite3
 import random
 from pathlib import Path
