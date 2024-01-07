@@ -61,8 +61,7 @@ def G():
     eligible_to_hit=True
     Q.execute('SELECT pn,P FROM U ORDER BY P')
     R2=Q.fetchall()
-    a=len(R2)
-    a-=1
+    a=len(R2)-1
     while a<=len(R2) and a>=0:
         R3=R2[a]
         print(R3[0],'-',R3[1])
